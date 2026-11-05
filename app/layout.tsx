@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextBites",
-  description: "A little recipe site built with Next.js",
+  title: "NextBites · Quick recipes you'll actually cook",
+  description: "A tiny recipe app built with Next.js. Search recipes and open a full page for each one.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
