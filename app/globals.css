@@ -149,3 +149,36 @@ h1 {
   padding-left: 24px;
   line-height: 1.7;
 }
+
+.status {
+  padding: 48px 0;
+  text-align: center;
+  color: #6b5a48;
+}
+
+.state-page {
+  text-align: center;
+  padding-top: 64px;
+}
+
+.state-emoji {
+  font-size: 4rem;
+  margin-bottom: 12px;
+}
+
+.state-page p {
+  margin-bottom: 24px;
+  color: #6b5a48;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: #ff7a1a;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+}
