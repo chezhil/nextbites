@@ -87,3 +87,65 @@ h1 {
   padding: 3px 8px;
   border-radius: 999px;
 }
+
+.card {
+  display: block;
+}
+
+.search {
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 24px;
+  padding: 12px 16px;
+  font: inherit;
+  border: 1px solid #f0e2d0;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.search:focus {
+  outline: 2px solid #ff7a1a;
+}
+
+.empty {
+  padding: 24px 0;
+  color: #6b5a48;
+}
+
+.detail {
+  max-width: 720px;
+}
+
+.detail .back {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #c75a00;
+  font-weight: 600;
+}
+
+.detail-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  margin-bottom: 20px;
+  font-size: 5rem;
+  background: #ffe9d1;
+  border-radius: 14px;
+}
+
+.detail .card-meta {
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.detail h2 {
+  margin: 24px 0 8px;
+  font-size: 1.25rem;
+}
+
+.detail ul,
+.detail ol {
+  padding-left: 24px;
+  line-height: 1.7;
+}
